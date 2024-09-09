@@ -6,7 +6,7 @@ builder.Services.AddControllersWithViews();
 var app = builder.Build();
 
 
-if (!app.Environment.IsDevelopment())
+if (!app.Environment.IsDevelopment()) //(IIE, 2024)
 {
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();

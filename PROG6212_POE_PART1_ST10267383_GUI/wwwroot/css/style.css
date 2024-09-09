@@ -1,6 +1,7 @@
 ﻿/* Global Styles */
+/*(mdn, 2020)*/
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; //(mdn, 2020)
     margin: 0;
     padding: 0;
     background-color: #f4f4f9;
@@ -19,6 +20,7 @@ h1, h2, h3 {
 }
 
 /* Navigation Bar */
+/*(mdn, 2020)*/
 .navbar {
     background-color: #4CAF50;
     overflow: hidden;
@@ -51,7 +53,7 @@ h1, h2, h3 {
     margin: 10px;
     transition: background-color 0.3s ease;
 }
-
+    /*(mdn, 2020)*/
     .button:hover {
         background-color: #45a049;
     }
@@ -71,7 +73,7 @@ form {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
+/*(mdn, 2020)*/
 input[type="text"], textarea {
     width: 100%;
     padding: 12px;
@@ -81,7 +83,7 @@ input[type="text"], textarea {
     border-radius: 4px;
     box-sizing: border-box;
 }
-
+/*(mdn, 2020)*/
 input[type="submit"] {
     background-color: #4CAF50;
     color: white;
@@ -96,6 +98,7 @@ input[type="submit"] {
     }
 
 /* Responsive Design */
+/*(mdn, 2020)*/
 @media screen and (max-width: 600px) {
     .grid-container {
         grid-template-columns: 1fr;
